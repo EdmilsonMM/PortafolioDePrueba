@@ -1,0 +1,38 @@
+
+
+.content__cualidades{
+    position: absolute;
+    padding: 10px;
+
+    animation: carga 2s ease    ;
+}
+
+.img1{
+    display: none;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.img1 img{
+    width: 100%;
+}
+
+.img2{
+    min-width: auto;
+    max-width: 500px;
+    margin-top: 30px;
+}
+.img2 img{
+    width: 100%;
+}
+
+.text__cualidades h1{
+    color: #ff4e50;
+}
+.text__cualidades p{
+    color: white;
+}
+
+.list__cualidades{
+    color: white;
+}

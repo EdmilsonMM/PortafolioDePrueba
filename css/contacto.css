@@ -1,0 +1,57 @@
+ 
+.formulario{
+    width: 100%;
+    min-width: 100px;
+    padding: 30px ;
+    background: rgba(0, 0, 0, 0.479);
+    position: absolute;
+    top: 10rem;
+    animation:carga 2s ease;
+
+    z-index: 10;
+}
+
+.formulario h1{
+   color: white;
+   text-align: center;
+}
+
+.formulario input[type="text"]{
+   
+   display: block;
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: none;
+   background: transparent;
+   border-bottom: 2px solid white;
+   outline: none;
+   color: white;
+
+}
+.mensaje{
+   border: none;
+   background: transparent;
+   border-bottom: 2px solid white;
+   outline: none;
+   color: white;
+   width: 100%;
+}
+.formulario input[type="button"]{
+   display: block;
+   width: 100%;
+   padding: 10px;
+   margin-top: 20px;
+   color: white;
+   border: none;
+   background: linear-gradient(to right, #ff4e50, #f9d423);
+}
+
+.img__contacto{
+   display: none;
+   animation:carga 2s ease
+}
+
+.img__contacto img{
+    width: 100%;
+}

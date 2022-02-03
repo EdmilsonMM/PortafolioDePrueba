@@ -1,0 +1,34 @@
+
+
+.sombre__mi{
+    position: absolute;
+    padding: 0 15px;
+    animation: carga 2s ease;
+    
+} 
+
+.descrip{
+    margin-top: 3rem;
+}
+
+.descrip h1{
+    color: #ff4e50;
+    text-align: center;
+
+}
+
+.descrip p{
+    color: white;
+    font-size: 20px;
+}
+
+
+.img__quiensoy{
+    min-width: 400px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.img__quiensoy img{
+    width: 100%;
+}

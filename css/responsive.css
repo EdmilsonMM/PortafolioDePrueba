@@ -1,0 +1,247 @@
+@media screen and (min-width:1000px) {
+
+   
+    /*barra de navegacion*/
+    .title__menu{
+        justify-content: space-around;
+    }
+
+    .title__menu i{
+        display: none;
+    }
+
+    .header__navegacion{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu{
+        width: auto;
+        display: block;
+        background: none;
+        position: initial;
+        text-align: initial;
+    }
+
+    .menu ul{
+        display: flex;
+    }
+
+    .menu li{
+        line-height: 0;
+    }
+
+    .menu a{
+        
+        padding: 10px 20px;
+    }
+    .menu a:hover{
+        background: linear-gradient(to right, #ff4e50, #f9d423);
+        border-radius: 30px;
+    }
+
+    /*CONTENEDOR DE BIENVENIDA*/
+    .content__bienvenida{
+        background: none;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        top: 10rem;
+        justify-content: space-around;
+    }
+
+    .bienvenida{
+        text-align: initial;
+    }
+
+    .bienvenida h2{
+        color: white;
+        font-size: 40px;
+    }
+
+    .bienvenida span{
+        margin: 0;
+    }
+
+    .img__bienvenida{
+        margin: 0;
+    }
+
+    /*QUIEN SOY* ------------------------------------------------------------------*/
+
+    .sombre__mi{
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        display: flex;
+        align-items: center;
+
+        padding:0;
+    }
+
+    .descrip{
+        min-width: auto;
+        max-width: 600px;
+        position: absolute;
+        top: 7rem;
+        left: 15rem;
+        z-index: 20;
+    }
+    
+    .img__quiensoy{
+        height: 500px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .img__quiensoy img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*CUALIDADES---------------------------------------------*/
+
+    .content__cualidades{
+        width: 100%;
+       
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 20px;
+        margin: 4rem 0;
+    } 
+
+   
+    .text__cualidades{
+        max-width: 700px;
+        margin: 0 10px;
+    }
+
+    .img1,.img2{
+        display: block;
+        margin: 2rem auto;
+    }
+    
+    /*Habilidades----------------------------------------------------*/
+
+    .content_habilidades{
+        width: 100%;
+        margin-top: 7rem;
+        position: absolute;
+    }
+    .habilidades{
+        display: flex;
+        margin-top: 4rem;
+    }
+
+    .game{
+        display: block;
+        min-width: 100px;
+        max-width: 500px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .game img{
+        width: 100%;
+    }
+
+    /*Proyectos--------------------------------------------------*/
+
+    .header_proyectos{
+        width: 100%;
+        position: absolute;
+        margin-top: 4rem;
+    }
+
+    .content__proyectos{
+        display: flex;
+    }
+
+    .proyectos{
+        position: relative;
+    }
+    .proyectos a{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .img__proyectos{
+        padding-bottom: 30px;
+    }
+
+    .img_inazuma{
+        display: block;
+        position: absolute;
+        bottom: -10px;
+    }
+    
+
+
+    /*contacto ---------------------------------------------------*/
+    
+    .formulario{
+        width: 600px;
+        min-width: 100px;
+        padding: 10px ;
+        background: rgba(0, 0, 0, 0.699);
+        position: absolute;
+        top: 15rem;
+        right: 15rem;
+    }
+   
+    .formulario h1{
+       color: white;
+       text-align: center;
+    }
+   
+    .formulario input[type="text"]{
+       
+       display: block;
+       width: 100%;
+       padding: 10px;
+       margin: 10px 0;
+       border: none;
+       background: transparent;
+       border-bottom: 2px solid white;
+       outline: none;
+       color: white;
+   
+   }
+   .mensaje{
+       border: none;
+       background: transparent;
+       border-bottom: 2px solid white;
+       outline: none;
+       color: white;
+       width: 100%;
+   }
+    .formulario input[type="button"]{
+       display: block;
+       width: 100%;
+       padding: 10px;
+       margin-top: 20px;
+       color: white;
+       border: none;
+       background: linear-gradient(to right, #ff4e50, #f9d423);
+    }
+   
+    .img__contacto{
+       max-width: 500px;
+       min-width: 100px;
+   
+       position: absolute;
+        display: block;
+       bottom: -10px;
+   
+    }
+   
+    .img__contacto img{
+        width: 100%;
+    }
+
+}

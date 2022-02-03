@@ -1,0 +1,46 @@
+.header_proyectos{
+    width: 100%;
+    position: absolute;
+
+    animation: carga 2s ease;
+}
+.header_proyectos h1{
+    color: white;
+    text-align: center;
+}
+
+.proyectos{
+    width: 180px;
+    background: rgba(128, 128, 128, 0.445);
+    margin: 20px auto;
+}
+
+.proyectos p{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.proyectos a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    color: white;
+    padding: 6px 0;
+
+    cursor: pointer;
+}
+
+.img__proyectos{
+    padding: 10px;
+}
+.img__proyectos img{
+    width: 100%;
+}
+
+.img_inazuma{
+    display: none;
+    animation: carga 2s ease;
+}
+

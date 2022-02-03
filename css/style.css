@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    margin: 0;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    background: rgb(18, 0, 66);
+    position: fixed;
+
+}
+
+/*BARRA DE NAVEGACION*/
+.title__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.title__menu i{
+    
+    font-size: 30px;
+
+    color: white;
+}
+
+.tittle__pagina {
+    text-decoration: none;
+}
+.tittle__pagina h1{
+    margin: 0;
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.menu{
+    width: 100%;
+    background: rgb(18, 0, 66);
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+.menu li{
+    list-style: none;
+    line-height: 6rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu.mostrar{
+    display: block;
+}
+
+/*Bienvenida*/
+
+.content__bienvenida{
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6rem;
+    padding: 10px;
+    animation: carga 2s ease;
+}
+
+.bienvenida{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.bienvenida h2{
+    color: white;
+    font-size: 28px;
+}
+
+.bienvenida span{
+    
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    display: block;
+    /*background: tomato;*/
+    width: 17ch ;
+    border-right: 5px solid ;
+    white-space: nowrap;
+    animation: mostrar 2s steps(17) alternate infinite , barra 1s alternate infinite ;
+    overflow: hidden;
+    margin: auto;
+}
+
+@keyframes mostrar {
+    from{
+        width: 0;
+    }
+}
+
+@keyframes barra {
+    50%{
+        border-color: transparent ;
+    }
+}
+
+.img__bienvenida{
+    min-width: 400px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.img__bienvenida img{
+    width: 100%;
+}
+

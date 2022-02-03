@@ -1,0 +1,35 @@
+
+.content_habilidades{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    animation: carga 2s ease;
+
+}
+.content_habilidades h1{
+    color: #ff4e50;
+}
+
+.content_habilidades p{
+    color: white;
+}
+.habilidades{
+    padding: 10px 0;
+}
+
+.img_habilidades{
+    width: 200px;
+    background: rgba(128, 128, 128, 0.356);
+    padding: 20px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.img_habilidades img:hover{
+    transform: scale(1.1);
+}
+
+.game {
+    display: none;
+    animation: carga 2s ease;
+}
